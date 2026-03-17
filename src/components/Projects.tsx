@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 // --- Media Imports ---
-import nanoAgentVideo from '../assets/NanoAgent/NanoAgent.MOV';
+import nanoAgentVideo from '../assets/NanoAgent/NanoAgent.mp4';
 import focalLengthVideo from '../assets/Focal Length Translation/focal_length.mp4';
 
 // Time-Weather GAN Images
@@ -81,7 +81,7 @@ const featuredProjects = [
     link: '',
     mediaType: 'video',
     mediaSrc: nanoAgentVideo,
-    videoType: 'video/quicktime',
+    videoType: 'video/mp4',
     objectFit: 'contain'
   },
   {
