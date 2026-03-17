@@ -125,11 +125,14 @@ const Hero = () => {
              className="flex flex-col gap-4 w-full"
           >
              <p className="text-xs font-mono text-blue-200 uppercase tracking-widest">Tech Stack</p>
-             <div className="flex gap-3 font-mono text-xs text-white">
+             <div className="flex flex-wrap gap-3 font-mono text-xs text-white">
                <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">PyTorch</span>
-               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">TensorFlow Lite</span>
-               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">Android NDK</span>
-               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">C++ / Python</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">TensorFlow</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">Deep Learning</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">Machine Learning</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">Generative AI</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">Computer Vision</span>
+               <span className="px-3 py-1.5 bg-white/10 border border-white/20 rounded-md shadow-sm backdrop-blur-sm">LLMs</span>
              </div>
           </motion.div>
 
